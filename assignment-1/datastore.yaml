@@ -1,0 +1,81 @@
+!java.util.Stack
+- &1
+   abf98813-0ce5-46af-b830-5eed368a002d: &2 !models.User
+      id: abf98813-0ce5-46af-b830-5eed368a002d
+      activities: &3
+         c6d19596-70d7-4e30-bc31-2567ad0e1fb3: &4 !models.Activity
+            id: c6d19596-70d7-4e30-bc31-2567ad0e1fb3
+            distance: 0.001
+            location: fridge
+            route: &5
+            - &6 !models.Location
+               id: 0
+               latitude: 23.3
+               longitude: 32.3
+            type: walk
+         b00f3428-bf29-4596-914d-08b852c1eb9b: &7 !models.Activity
+            id: b00f3428-bf29-4596-914d-08b852c1eb9b
+            date: 2017-11-04 04:10:10
+            distance: 10.0
+            duration: 18305
+            location: WIT
+            route: &8
+            - &9 !models.Location
+               id: 2
+               latitude: 23.5
+               longitude: 32.5
+            - &10 !models.Location
+               id: 3
+               latitude: 12.5
+               longitude: 34.5
+            type: cycle
+         cbebd5f2-10f0-4e71-bf87-70044a14b7b2: &11 !models.Activity
+            id: cbebd5f2-10f0-4e71-bf87-70044a14b7b2
+            distance: 3.4
+            location: home
+            type: paint
+      email: homer@simpson.com
+      firstName: homer
+      lastName: simpsom
+      password: secret
+   04ce3cf4-7864-4a49-946e-bddfc18e50b4: &12 !models.User
+      id: 04ce3cf4-7864-4a49-946e-bddfc18e50b4
+      email: marge@simpson.com
+      firstName: marge
+      lastName: simpson
+      password: secret
+   4d52fc9d-6cda-4b76-ab8d-ddb2459b14d4: &13 !models.User
+      id: 4d52fc9d-6cda-4b76-ab8d-ddb2459b14d4
+      activities: &14
+         85dea5a2-0eb1-4070-b0ed-c3b1fb64cc66: &15 !models.Activity
+            id: 85dea5a2-0eb1-4070-b0ed-c3b1fb64cc66
+            date: 2017-11-04 04:10:10
+            distance: 10.0
+            duration: 18305
+            location: forst
+            route: &16
+            - &17 !models.Location
+               id: 2
+               latitude: 23.5
+               longitude: 32.5
+            - &18 !models.Location
+               id: 3
+               latitude: 12.5
+               longitude: 34.5
+            type: run
+      email: rhood@serializer.com
+      firstName: Robin
+      lastName: Hood
+      password: xanadu
+- &19
+   homer@simpson.com: *2
+   rhood@serializer.com: *13
+   marge@simpson.com: *12
+- &20
+   85dea5a2-0eb1-4070-b0ed-c3b1fb64cc66: *15
+   c6d19596-70d7-4e30-bc31-2567ad0e1fb3: *4
+   b00f3428-bf29-4596-914d-08b852c1eb9b: *7
+   cbebd5f2-10f0-4e71-bf87-70044a14b7b2: *11
+- *1
+- *19
+- *20

@@ -1,0 +1,45 @@
+Application command set
+======================================================================================
+
+cu lisa simpson lisa@simpson.com secret
+cu maggie simpson maggie@simpson.com secret
+cu marge simpson marge@simpson.com secret
+cu lina simpson lsimp@simpson.com secret
+cu bart simpson bart@simpson.com secret
+
+aa d64941b7-5727-43c2-a0fe-59224552bb98 cycle WIT 10.0 2017:11:04.04:10:10 05:05:05
+aa d64941b7-5727-43c2-a0fe-59224552bb98 drive Cork 10.0 2017:11:03.04:10:10 05:05:05
+aa d64941b7-5727-43c2-a0fe-59224552bb98 fly Dublin 10.0 2017:10:02.04:10:10 05:05:05
+aa d64941b7-5727-43c2-a0fe-59224552bb98 walk Office 10.0 2017:10:03.04:10:10 05:05:05
+aa d64941b7-5727-43c2-a0fe-59224552bb98 run shop 10.0 2017:11:04.04:10:10 05:05:05
+
+al 2fcb0121-ea18-4a77-9c31-790dc9c31a1b 23.5 32.5
+al 05ee0eaf-fa04-461e-bb12-1e2b43e3481b 12.5 34.5
+
+lu 1dc85eb2-8dc3-42f0-ad30-8b324ae059ca
+gu lsimp@simpson.com
+
+al 2fcb0121-ea18-4a77-9c31-790dc9c31a1b 
+du marge@simpson.com
+
+la 05ee0eaf-fa04-461e-bb12-1e2b43e3481b
+
+To clear a sample data file. 
+du lsimp@simpson.com
+du marge@simpson.com
+du maggie@simpson.com
+du bart@simpson.com
+du lisa@simpson.com
+
+Legacy command set.
+
+cu homer simpsom homer@simpson.com secret
+cu marge simpson marge@simpson.com secret
+aa e8510311-84f7-445e-b5b6-5ff3a2d43b5f walk fridge .001
+aa e8510311-84f7-445e-b5b6-5ff3a2d43b5f walk bar 1.0
+aa e8510311-84f7-445e-b5b6-5ff3a2d43b5f run work 2.2
+aa 75d36422-cb51-4ab2-af7d-f4a5b4855f8c walk shop 2.5
+aa 75d36422-cb51-4ab2-af7d-f4a5b4855f8c cycle shop 4.5
+al e8510311-84f7-445e-b5b6-5ff3a2d43b5f 23.3 32.3
+al e8510311-84f7-445e-b5b6-5ff3a2d43b5f 23.3 32.5
+al e8510311-84f7-445e-b5b6-5ff3a2d43b5f 23.3 32.6
